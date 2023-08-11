@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>li:first-child{
+        color: red;
+    }
+    li:last-child,li:nth-child(4){
+        color: red;
+    }
+    li:nth-child(odd){
+        color: green;
+    }
+    input:focus{
+        border:3px solid red;
+    }
+    /* seudo-element */
+    /* p::first-letter{
+        font-size: 35px;
+        color: red;
+    } */
+    p::first-line{
+        font-size: 35px;
+        color: red;
+    }
+    h1::before{
+        content: url(Image3.png);
+    }
+    h1::after{
+        content: " added after";
+    }
+    ::selection{
+        color: red;
+        background: yellow;
+    }</style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>HEADING1</h1>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga quo veritatis, voluptates quam, porro doloribus odit, et amet sint error reiciendis totam nam ab? Excepturi dolore aperiam aut, nisi voluptatum vero reprehenderit rem sed blanditiis iusto quis magnam mollitia veritatis provident illum recusandae obcaecati illo porro nobis autem! Laboriosam laudantium tempora eos ad aut commodi consectetur neque magnam veritatis, possimus itaque architecto provident velit obcaecati, voluptate, atque asperiores error officiis doloribus mollitia harum sequi. Facilis recusandae nam, reiciendis iusto adipisci reprehenderit molestiae maiores expedita earum temporibus, eos voluptatem nostrum. Reiciendis est aperiam hic omnis nulla esse temporibus officiis non totam?</p>
+ 
+ 
+    <ul>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+    </ul>
+    <input type="text">
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#imgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgDiv  img{
+    width: 60%;
+}
+
+.Div2{
+    color: white;
+  height: 100px;
+  width: 200px;
+  background-image: url(../img/nature.avif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* position: sticky; */
+  position: fixed;
+ top:300px;
+ right: 0;
+}
+p{
+    font-size: 40px;
+}
+

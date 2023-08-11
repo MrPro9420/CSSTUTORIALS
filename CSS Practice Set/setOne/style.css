@@ -1,0 +1,14 @@
+#box{
+ background-color: #00f;
+}
+.heading{
+    color: #f00;
+}
+button{
+    background-color: green;
+}
+#imgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
